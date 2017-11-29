@@ -1,0 +1,258 @@
+.alert {
+    position: relative;
+    background: #fff;
+    padding: 20px 15px 15px 15px;
+    width: 600px;
+    margin: 0 auto;
+    line-height: 24px;
+    font-size: 13px
+}
+.alert a {
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold
+}
+.alert h1 {
+    font-size: 14px;
+    font-weight: bold
+}
+#slider {
+    height: 300px;
+    overflow: hidden;
+    background: url(../images/back1.png) no-repeat left -30px;
+    text-shadow: 0 1px 0 #000
+}
+#slider .slide {
+    height: 300px;
+    padding: 80px 0 0 100px
+}
+#slider .baslik {
+    width: 650px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
+    background: rgba(0, 0, 0, .1);
+    margin-bottom: 20px;
+    border-radius: 4px
+}
+#slider .aciklama {
+    width: 650px;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 28px;
+    background: rgba(0, 0, 0, .1);
+    border-radius: 4px
+}
+#slider .slide#slide1 {
+    background: url(https://i.hizliresim.com/kXQZY7.jpg) no-repeat;
+    width: 100%
+}
+#slider .slide#slide2 {
+    background: url(https://i.hizliresim.com/kXQZY7.jpg) no-repeat;
+    width: 100%
+}
+#slider .slide#slide3 {
+    background: url(https://i.hizliresim.com/kXQZY7.jpg) no-repeat;
+    width: 100%
+}
+#slider .slide#slide4 {
+    background: url(https://i.hizliresim.com/kXQZY7.jpg) no-repeat;
+    width: 1000px
+}
+#slider .slide#slide5 {
+    background: url(../images/back2.png) no-repeat;
+    width: 1000px
+}
+#sunucular {
+    padding: 10px 0;
+    font-size: 14px;
+    color: red;
+    overflow: hidden;
+    background: #0e0e0e url(../images/back2.png) left top;
+    border-bottom: 1px solid #de8d00;
+    border-top: 1px solid #de8d00
+}
+#sunucular ul {
+    margin: 0 0 0 70px
+}
+#sunucular ul li .dotted {
+    border-bottom: 1px dotted #de8d00;
+    padding-bottom: 2px
+}
+.sunucu-paketleri {
+    float: left;
+    margin: 0 0 0 5px;
+    padding: 0 15px 5px 8px;
+    width: 260px;
+    overflow: hidden;
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    border-right: 1px solid rgba(255, 255, 255, .05)
+}
+.sunucu-paketleri:hover {
+    cursor: pointer
+}
+.sunucu-paketleri:last-child {
+    margin: 0;
+    padding-right: 0;
+    border-right: 0
+}
+.sunucu-paketleri ul li {
+    line-height: 36px;
+    padding: 0 5px 0 20px;
+    background: url(../images/paket-ok.png) no-repeat 3px center
+}
+.sunucu-paketleri ul li.fiyat {
+    float: left;
+    text-align: right;
+    background: none
+}
+.sunucu-paketleri ul li:nth-child(even) {
+    background-color: rgba(255, 255, 255, .03)
+}
+.sunucu-paketleri ul li:last-child {
+    padding: 0;
+    width: 50px;
+    color: #de8d00;
+    float: right;
+    font-size: 12px;
+    text-align: center;
+    text-shadow: 0 1px 0 #000;
+    border-radius: 5px;
+    background: #356aa0;
+    margin-top: 10px;
+    line-height: 22px!important
+}
+#paket1 {
+    background-image: url(../images/hizmet-90.png)
+}
+#paket2 {
+    background-image: url(../images/hizmet-740.png)
+}
+#paket3 {
+    background-image: url(../images/hizmet-9987.png)
+}
+#paket4 {
+    background-image: url(../images/hizmet-7777.png)
+}
+#paket5 {
+    background-image: url(../images/hizmet-facebook.png)
+}
+#paket6 {
+    background-image: url(../images/hizmet-facebook2.png)
+}
+#paket7 {
+    background-image: url(../images/hizmet-steam.png)
+}
+#ourserv article {
+    width: 275px;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    vertical-align: top;
+    margin: 0 38px 0 0
+}
+#ourserv article h1,
+#latestp article h1 {
+    font-family: LeagueGothic, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 5px
+}
+.lastarticle {
+    margin: 0
+}
+#ourserv {
+    margin: 8px 0 15px 20px;
+    width: 100%
+}
+#ourserv img,
+#latestp img {
+    margin-bottom: 5px;
+    box-shadow: 0 4px 6px #000
+}
+#orta {
+    overflow: hidden
+}
+#sag-menu {
+    float: right;
+    color: #fff;
+    border-top: 1px solid #ff7465;
+    overflow: hidden;
+    box-shadow: 0 15px 10px 5px #000
+}
+#sag-menu #musteri-giris,
+#sag-menu #musteri-destek {
+    margin: 0 0 5px 0;
+    border-bottom: 1px solid #222;
+    width: 305px;
+    line-height: 18px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    padding: 15px 0 1px 80px;
+    text-decoration: none;
+    background-color: rgba(99, 99, 99, .10);
+    background-image: url(../images/musteri-giris.png);
+    background-repeat: no-repeat;
+    background-position: 20px center
+}
+#sag-menu #musteri-giris span,
+#sag-menu #musteri-destek span {
+    color: #ddd;
+    font-size: 13px;
+    font-weight: normal
+}
+#sag-menu #musteri-destek {
+    background-image: url(../images/musteri-destek.png)
+}
+#habericerik {
+    font-size: 14px;
+    padding: 5px;
+    width: 760px;
+    float: left;
+    color: #fff;
+    line-height: 22px;
+    background: rgba(99, 99, 99, .10);
+    border-top: 1px solid #2e6eb2;
+    border-bottom: 1px solid #222
+}
+#habericerik ul {
+    padding: 0;
+    margin: 0 0 0 10px;
+    list-style-type: none
+}
+#habericerik ul li {
+    padding: 3px 10px 3px 30px;
+    margin: 3px 20px 0 0;
+    border-bottom: 1px dotted #3e3e3e
+}
+#habericerik ul li:last-child {
+    border-bottom: 0
+}
+#habericerik li a {
+    color: #fff
+}
+#habericerik li a:hover {
+    text-decoration: underline
+}
+#sayi1 {
+    background: url(../images/1.gif) no-repeat 10px center
+}
+#sayi2 {
+    background: url(../images/2.gif) no-repeat 10px center
+}
+#sayi3 {
+    background: url(../images/3.gif) no-repeat 10px center
+}
+#sayi4 {
+    background: url(../images/4.gif) no-repeat 10px center
+}
+#sayi5 {
+    background: url(../images/5.gif) no-repeat 10px center
+}
